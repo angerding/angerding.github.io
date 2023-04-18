@@ -1,0 +1,71 @@
+@import './colors';
+@import './variables';
+
+h1 {
+    color: $accent-color;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 860px;
+    width: 100%;
+    gap: 100px;
+
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        p {
+            margin: 20px 0px;
+        }
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax($min-screen-supported, 1fr));
+    
+        .about_text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        > img {
+            width: 250px;
+            height: 250px;
+            margin: auto;
+        }
+
+        > p {
+            margin-top: 10px;
+        }
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .education_box {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax($min-screen-supported, 1fr));
+            align-items: center;
+            justify-items: center;
+            /* esto para centrar horizontalmente cuando es un grid */
+
+            > img {
+                width: 250px;
+                height: 250px;
+            }
+
+            .education_description {
+                color: $secondary-text-color
+            }
+        }
+        
+    }
+
+}
+

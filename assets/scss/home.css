@@ -1,0 +1,55 @@
+h1 {
+  color: #98CA3F;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 860px;
+  width: 100%;
+  gap: 100px;
+}
+.container .introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .introduction p {
+  margin: 20px 0px;
+}
+.container .about {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.container .about .about_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .about > img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+.container .about > p {
+  margin-top: 10px;
+}
+.container .education {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .education .education_box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: center;
+  justify-items: center;
+  /* esto para centrar horizontalmente cuando es un grid */
+}
+.container .education .education_box > img {
+  width: 250px;
+  height: 250px;
+}
+.container .education .education_box .education_description {
+  color: #A4A6A6;
+}/*# sourceMappingURL=home.css.map */

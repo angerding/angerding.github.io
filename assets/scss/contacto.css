@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-content: center;
+  gap: 30px;
+}
+.about .about_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.about > img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+.about > p {
+  margin-top: 10px;
+}
+.about > ol li {
+  color: blanchedalmond;
+}/*# sourceMappingURL=contacto.css.map */

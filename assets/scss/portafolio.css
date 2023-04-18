@@ -1,0 +1,23 @@
+/* portafolio */
+.container {
+  display: grid;
+  max-width: 1600px;
+  margin: auto;
+  gap: 26px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.container .card {
+  height: 400px;
+  margin: 16px auto;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #2E2F36;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  max-width: 350px;
+}
+.container .card .card_image {
+  height: 60%;
+  width: 100%;
+}/*# sourceMappingURL=portafolio.css.map */

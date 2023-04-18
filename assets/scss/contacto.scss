@@ -1,0 +1,36 @@
+@import './variables';
+
+.about {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fill, minmax($min-screen-supported, 1fr));
+    align-content: center;
+    gap: 30px;
+
+    .about_text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    >img {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+
+    >p {
+        margin-top: 10px;
+    }
+
+
+    >ol {
+        li {
+            color: blanchedalmond;
+        }
+
+    }
+
+}
