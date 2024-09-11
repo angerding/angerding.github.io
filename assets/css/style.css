@@ -44,6 +44,8 @@ header{
     align-items: center;
 }
 
+
+
 button{
     font-family: "Roboto", sans-serif;
 }
@@ -58,6 +60,7 @@ button.primary{
     border-width: 1px;
     color: blanchedalmond;
 }
+
 
 .logoHeader{
     margin: 16px;
@@ -91,6 +94,16 @@ button.primary{
     color: white;
 
 }
+
+.flags {
+    display: block;
+}
+
+.flag-icon {
+    width: 16px;
+    height: 16px;
+}
+
 .accordion-item {
     background-color: transparent;
 }

@@ -89,6 +89,20 @@ button.primary {
   color: #322f2f;
 }
 
+.flags {
+  display: inline-block;
+}
+
+.flags__item {
+  display: inline;
+}
+
+.flag-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
 .accordion-item {
   background-color: transparent;
 }
